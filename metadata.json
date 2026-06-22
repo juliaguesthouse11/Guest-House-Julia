@@ -1,0 +1,6 @@
+{
+  "name": "Guest House Julia",
+  "description": "An elegant, highly interactive website and AI-activated concierge for Guest House Julia in Stavros, Greece, featuring rooms, gardens, amenities, a rate calculator, and localized travel advice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

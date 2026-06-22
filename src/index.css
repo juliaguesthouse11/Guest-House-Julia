@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-serif: "Playfair Display", Georgia, ui-serif, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Redefine Amber palette to our gorgeous, professional brand green (#0ca295) */
+  --color-amber-50: #f0faf9;
+  --color-amber-100: #d1f0ed;
+  --color-amber-200: #a3e1db;
+  --color-amber-250: #7bd0c8;
+  --color-amber-400: #33b8ad;
+  --color-amber-500: #0ca295;
+  --color-amber-550: #0ba093;
+  --color-amber-600: #0ca295;
+  --color-amber-650: #0ba396;
+  --color-amber-655: #0b9387;
+  --color-amber-700: #08857a;
+  --color-amber-705: #077c72;
+  --color-amber-750: #077067;
+  --color-amber-800: #06635c;
+  --color-amber-900: #044b45;
+  --color-amber-950: #022d2a;
+
+  /* Redefine Orange to map to our green system to prevent any orange leaks */
+  --color-orange-50: #f0faf9;
+  --color-orange-100: #d1f0ed;
+  --color-orange-500: #0ca295;
+  --color-orange-600: #0ca295;
+  --color-orange-700: #06635c;
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
